@@ -35,8 +35,7 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
-
-.galeria__img:hover {
+.galeria__img :hover {
   transform: scale(1.05);
 }
 
