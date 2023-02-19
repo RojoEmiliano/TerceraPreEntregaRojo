@@ -3,6 +3,9 @@
     justify-content: center;
     color: white;
     padding-top: 10px;
+    img:hover{
+            transform: scale(1.05);
+    }
 }
 
 .galeria-container {
@@ -14,14 +17,15 @@
 .galeria__item{
     position: relative;
     margin: 10px;
+    :hover{
+        transform: scale(1.1);
+    }
 }
 
 .galeria__img {
     width: 100%;
     object-fit: cover;
-    :hover{
-        transform: scale(1.05);
-    }
+
 }
 
 
@@ -66,6 +70,9 @@
 .textosn{
     display: flex;
     justify-content: center;
+    :hover{
+        transform: scale(1.1);
+    }
 }
 
 .contenedorinicio{

@@ -18,6 +18,9 @@ body {
   color: white;
   padding-top: 10px;
 }
+.textcenter img:hover {
+  transform: scale(1.05);
+}
 
 .galeria-container {
   display: grid;
@@ -29,14 +32,14 @@ body {
   position: relative;
   margin: 10px;
 }
+.galeria__item :hover {
+  transform: scale(1.1);
+}
 
 .galeria__img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-}
-.galeria__img :hover {
-  transform: scale(1.05);
 }
 
 .galeria__titulo {
@@ -80,6 +83,9 @@ body {
 .textosn {
   display: flex;
   justify-content: center;
+}
+.textosn :hover {
+  transform: scale(1.1);
 }
 
 .contenedorinicio {
